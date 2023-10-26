@@ -14,7 +14,7 @@ void loop() {
   Serial1.print("FSR Value = ");
   Serial1.println(FSR);
   
-  // Check if the FSR value is below the threshold (900)
+  // Check if the FSR value is below the threshold (500)
   if (FSR  > 500) {
    Serial.println("Object removed");
    Serial1.println("Object removed");
